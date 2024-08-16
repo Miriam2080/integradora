@@ -1,0 +1,131 @@
+* {
+    margin: 150;
+    padding: 0;
+}
+
+body {
+    background: #3a3d47;
+    font-family: verdana;
+}
+
+.container {
+    width: 1200px;
+    background: #062348;
+    margin: 10px auto;
+}
+
+/* SECCIÓN CABCECERA Y MENÚS */
+.superior {
+    background: black;
+    overflow: hidden;
+}
+
+.logo {
+    float: left;
+    width: 300px;
+    padding: 25px;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.menu {
+    float: left;
+    padding: 66px;
+    
+}
+
+.opciones li {
+    float: left;
+    list-style: none;
+}
+
+.opciones li a {
+    color: white;
+    padding: 25px;
+    text-decoration: none;
+    border: 1px solid white;
+}
+
+.opciones li a:hover {
+    background: #08264e;
+}
+
+/* SECCCION CUERPO Y CAJAS */
+.cuerpo {
+    overflow: hidden;
+}
+
+.caja {
+    float: left;
+    width: 380px;
+    margin: 8px;
+    border: 1px solid;
+}
+
+.subtitulo {
+    background: #1551a1;
+}
+
+.servicios {
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.efecto:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.contenido {
+    padding: 20px;
+    text-align: justify;
+    color: white;
+}
+
+.boton {
+    padding: 15px 20px;
+    margin: 20px 0px;
+    color: white;
+    background: #0a356e;
+    border-radius: 10px;
+}
+
+.boton:hover {
+    background: #2060b3;
+    cursor: pointer;
+}
+
+.titulo {
+    text-align: center;
+    color: white;
+}
+
+/*SECCIÓN PIE DE PÁGINA */
+.pie {
+    background: #062348;
+    overflow: hidden;
+}
+
+.izquierda {
+    float: left;
+    width: 550px;
+    color: white;
+    padding: 15px;
+    text-align: justify;
+    font-size: 11px;
+}
+
+.derecha {
+    float: left;
+    width: 550px;
+    padding: 15px;
+}
+
+.siguenos {
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
